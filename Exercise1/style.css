@@ -56,7 +56,7 @@ header p {
 #yearBorn, #name {
     all: none;
     border: 1px solid #000;
-    background-color: #ddd
+    background-color: #ddd;
     resize: none;
     color: #000;
     box-shadow: 0 0 0 #000;
@@ -69,8 +69,10 @@ header p {
     margin-top: 16px;
 }
 
-#outputBox h1{    
+#outputBox h3{    
     font-size: var(--h3-fontSize);
+    text-align: center;
+    text-shadow: 0 0 6px #0194B6;
 }
 
 #calculateAge , #resetAge {
